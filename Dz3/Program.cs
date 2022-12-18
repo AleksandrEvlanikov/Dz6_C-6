@@ -6,12 +6,12 @@ int sum1 = 0;
 
 for( int i = 0; i < 5; i++)
 {
-    number[i] = rnd.Next(1, 60);
+    number[i] = rnd.Next(1, 10);
 }
 
 
-sum = number[0] + number[4];
-sum1 = number[1] + number[3];
+sum = number[0] * number[4];
+sum1 = number[1] * number[3];
 
 sum = sum + sum1;
 
